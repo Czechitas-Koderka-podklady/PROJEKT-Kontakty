@@ -1,0 +1,17 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+/* ---------------------------------------------------- */
+
+/*
+Breakpointy
+Mobil   0 - 539px
+Tablet  540px - 959px (čti jako 540px a víc)
+PC      960px a víc
+*/
